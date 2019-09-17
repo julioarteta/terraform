@@ -1,5 +1,5 @@
 resource "google_compute_instance" "vm_instance" {
-  name         = "terraform-instance"
+  name         = "name-instance"
   machine_type = "f1-micro"
 
   boot_disk {
